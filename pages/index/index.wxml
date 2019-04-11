@@ -1,0 +1,9 @@
+<!--index.wxml-->
+<view class="wrap">
+ <view class='bigCircle'></view>
+  <view class='littleCircle'></view>
+ <view class = 'crl-dot' animation='{{dotAnData}}'>
+    <!-- <view class='crl'></view> -->
+ </view>
+
+</view>

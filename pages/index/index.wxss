@@ -1,0 +1,64 @@
+.canvasBox{
+  height: 500rpx;
+  position: relative;
+  background-color: #f5f5f5;
+}
+.bigCircle{
+  width: 420rpx;
+  height: 420rpx;
+  border-radius: 50%;
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto auto;
+  background-color: red;
+}
+.littleCircle{
+  width: 410rpx;
+  height: 410rpx;
+  border-radius: 50%;
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto auto;
+  background-color: #fff;
+}
+.canvas{
+  width: 420rpx;
+  height: 420rpx;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto auto;
+  z-index: 99;
+}
+.crl-dot{
+  width: 30rpx;
+  height: 30rpx;
+  background: blue;
+  border-radius: 50%;
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left: -420rpx;
+  right: 0;
+  margin: auto auto;
+  line-height: 30rpx;
+}
+.crl{
+  width: 15rpx;
+  height: 60rpx;
+  background: linear-gradient(blue, #fff);
+  /* border-top-right-radius: 50%; */
+  border-bottom-right-radius: 50%;
+   border-bottom-left-radius: 50%;
+   /* border-top-left-radius: 50%; */
+  margin-left: 7.5rpx;
+  margin-top: 29rpx;
+}
